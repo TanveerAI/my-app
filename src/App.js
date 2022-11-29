@@ -56,7 +56,7 @@ function App() {
 
   return (
 <>
-  <Navbar title = "TextUtils2" Abouttext ="About Us" mode={mode} toggleMode={toggleMode} />
+  <Navbar title = "TextEditor" Abouttext ="About Us" mode={mode} toggleMode={toggleMode} />
 <Alert alert={alert} />
 <div className="container my-3"> 
         {/* <Switch>
